@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinShip</title>
+    <!-- js slider link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- font link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="body">
+        <!-- thanh công cụ -->
+        <!-- nhiệm vụ của phúc -->
+        <header class="header">
+            <!-- start header -->
+            <a href="home.html" class="logo"><i class="fa-solid fa-bowl-food"></i>winship</a>
+            <nav class="navbar">
+                <div class="subnav">
+                    <a href="#" class="subnav-location">Đà Nẵng <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="subnav-content">
+                        <li><a href="#">Hà Nội</a></li>
+                        <li><a href="#">Hồ Chí Minh</a></li>
+                        <li><a href="#">Quảng Trị</a></li>
+                        <li><a href="#">Đà Lạt</a></li>
+                        <li><a href="#">Nha Trang</a></li>
+                        <li><a href="#">Hải Phòng</a></li>
+                        <li><a href="#">Vũng Tàu</a></li>
+                        <li><a href="#">Huế</a></li>
+                        <li><a href="#">Cần Thơ</a></li>
+                    </ul>
+                </div>
+                <a class="navbar-hover-firt-item" href="#house">Thử Quán Mới</a>
+                <a href="#home">Đang Khuyến Mãi</a>
+                <a href="#home">Thương Hiệu Quen Thuộc</a>
+                <a href="#cuaHangGanBan">Cửa Hàng Gần Bạn</a>
+                <a href="#home">Vừa Đặt Gần Đây</a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+            <div class="login">
+                <a href="#" class="login-btn">Đăng Nhập</a>
+            </div>
+        </header>
+        <!-- start header -->
+
+        <!-- start form -->
+         <form action="" id="search-form">
+            <input type="search" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+             <i class="fas fa-times" id="close"></i>
+         </form>
+
+        <!-- phần hiển thị tất cả thông tin chính -->
+        <div class="container">
+            <!-- thanh quảng cáo có lướt được, có thông tin các món ăn -->
+            <!-- nhiệm vụ của doanh -->
+            <section class="house" id="house">
+                <div class="swiper house-slider">
+                    <!-- Sửa class 'swiper-wrappe' thành 'swiper-wrapper' -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slider">
+                            <div class="content">
+                                <span>Reign energy drink x </span> <span class="logo">winship <i class="fa-solid fa-bowl-food"></i></span>
+                                <h1>Nước tăng lực</h1>
+                                <p>Bão trị vì, nho thu hoạch, nước tăng lực sạch, 12 fluid ounce</p>
+                                <a href="#" class="btn">mua</a>
+                                <h2 class="logo"><i class="fa-solid fa-phone"></i>1900 3220</h2>
+                            </div>
+                            <div id="image">
+                                <img src="images/img-slider-index.html/imggg1.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide slider">
+                            <div class="content">
+                                <span>MSalmar ASA x </span> <span class="logo">winship <i class="fa-solid fa-bowl-food"></i></span>
+                                <h1>Cá hồi Na uy</h1>
+                                <p>Cá hồi Nauy nổi tiếng với chất lượng cao, thịt mềm, hương vị tươi ngon và giàu omega</p>
+                                <a href="#" class="btn">mua</a>
+                                <h2 class="logo"><i class="fa-solid fa-phone"></i>1900 3220</h2>
+                            </div>
+                            <div id="image">
+                                <img src="images/img-slider-index.html/imgg2.jpg" alt="Phở">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide slider">
+                            <div class="content">
+                                <span>Kamada x </span> <span class="logo">winship <i class="fa-solid fa-bowl-food"></i></span>
+                                <h1>Nước tương</h1>
+                                <p>Thương hiệu nước tương 234 năm huyền thoại từ Nhật</p>
+                                <a href="#" class="btn">mua</a>
+                                <h2 class="logo"><i class="fa-solid fa-phone"></i>1900 3220</h2>
+                            </div>
+                            <div id="image">
+                                <img src="images/img-slider-index.html/imgg3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide slider">
+                            <div class="content">
+                                <span>honey garden x </span> <span class="logo">winship <i class="fa-solid fa-bowl-food"></i></span>
+                                <h1>Mật ong Úc</h1>
+                                <p>Mật ong Úc cao cấp, tự nhiên và 100% từ thiên nhiên</p>
+                                <a href="#" class="btn">mua</a>
+                                <h2 class="logo"><i class="fa-solid fa-phone"></i>1900 3220</h2>
+                            </div>
+                            <div id="image">
+                                <!-- Xóa dấu " thừa sau .jpg -->
+                                <img src="images/img-slider-index.html/imgg4.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide slider">
+                            <div class="content">
+                                <span>King river x </span> <span class="logo">winship <i class="fa-solid fa-bowl-food"></i></span>
+                                <h1>Thịt bò wagiu</h1>
+                                <p>Thịt 200 năm tuổi ngon nhất nước Úc</p>
+                                <a href="#" class="btn">mua</a>
+                                <h2 class="logo"><i class="fa-solid fa-phone"></i>1900 3220</h2>
+                            </div>
+                            <div id="image">
+                                <img src="images/img-slider-index.html/imgg5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!-- phần menu các món ăn -->
+            <!-- nhiệm vụ của đạt -->
+            
+                <div class="container-menu">
+                    
+                        <div class="menu">
+                            <h1 class="titleMenu">menu</h1>
+                            <div class="contentMenu">
+                                <div class="box">
+                                    <div class="image">
+                                       <img class="img" src="https://daotaobeptruong.vn/wp-content/uploads/2021/01/banh-mi-viet-nam.jpg" alt="">
+                                    </div>
+                                    <div class="titleBox">Bánh mỳ</div>
+                                </div>
+                
+                                <div class="box">
+                                    <div class="image">
+                                        <img class="img" src="https://i.ytimg.com/vi/_0JVXwg56l8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAyNh9uwhtvutsebqeKvOOHYhMEtQ" alt="">
+                                    </div>
+                                    <div class="titleBox">Bánh xôi</div>
+                                </div>
+                
+                                <div class="box">
+                                    <div class="image">
+                                        <img class="img" src="https://product.hstatic.net/200000264775/product/ca_phe_ae27c2fffbc4489884c2efbef3d639bb_1024x1024.jpg" alt="">
+                                    </div>
+                                    <div class="titleBox">Cafe</div>
+                                </div>
+                
+                                <div class="box">
+                                    <div class="image">
+                                        <img class="img" src="https://getngo.vn/wp-content/uploads/2023/04/olong-tra-sua-dac-biet.jpg" alt="">
+                                    </div>
+                                    <div class="titleBox">Trà sữa</div>
+                                </div>
+    
+                                
+                                <div class="box">
+                                    <div class="image">
+                                        <img class="img" src="https://cdn3.ivivu.com/2016/05/ba-mon-an-trua-nhe-bung-o-da-nang-ivivu-1.jpg" alt="">
+                                    </div>
+                                    <div class="titleBox">Ăn trưa</div>
+                                </div>
+                                <div class="box">
+                                    <div class="image">
+                                        <img class="img" src="https://dulichsontra.com/wp-content/uploads/2021/12/anh-dai-dien-quan-an-sang-da-nang.jpg" alt="">
+                                    </div>
+                                    <div class="titleBox">Ăn sáng</div>
+                                </div>
+                                <div class="box">
+                                    <div class="image">
+                                        <img class="img" src="https://cafefcdn.com/203337114487263232/2022/7/23/photo-1-16585821912571146207773.jpg" alt="">
+                                    </div>
+                                    <div class="titleBox">Bữa tối </div>
+                                </div>
+                                <div class="box">
+                                    <div class="image">
+                                        <img class="img" src="https://cdn.tgdd.vn/Files/2017/05/16/982787/chon-nuoc-ep-hay-sinh-to-cho-be-202304131615146615.jpg" alt="">
+                                    </div>
+                                    <div class="titleBox">Nước ép trái cây</div>
+                                </div>
+                                <div class="box">
+                                    <div class="image">
+                                        <img class="img" src="https://cdn.tgdd.vn/Files/2019/10/19/1210128/3-cach-nau-lau-cua-dong-thom-ngon-ngot-nuoc-don-gian-tai-nha-202203161321088395.jpg" alt="">
+                                    </div>
+                                    <div class="titleBox">Lẩu</div>
+                                </div>
+                                <div class="box">
+                                    <div class="image">
+                                        <img class="img" src="https://vinastory.vn/wp-content/uploads/2021/07/xay-dung-thuc-don-com-van-phong-2.jpg" alt="">
+                                    </div>
+                                    <div class="titleBox">Cơm văn phòng </div>
+                                </div>
+                                <div class="box">
+                                    <div class="image">
+                                        <img class="img" src="https://static.vinwonders.com/production/com-tam-da-nang-1.jpg" alt="">
+                                    </div>
+                                    <div class="titleBox">Cơm tấm</div>
+                                </div>
+                                <div class="box">
+                                    <div class="image">
+                                        <img class="img" src="https://static.vinwonders.com/2023/02/com-ga-da-nang-1.jpg" alt="">
+                                    </div>
+                                    <div class="titleBox">Cơm gà</div>
+                                </div>
+                                <div class="box">
+                                    <div class="image">
+                                        <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR83ejS0dw1zYhHgbx3Ft3tQUBBsG3yBFWQxA&s" alt="">
+                                    </div>
+                                    <div class="titleBox">Hủ tiếu </div>
+                                </div>
+                                <div class="box">
+                                    <div class="image">
+                                        <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBb0X4K0a0gsya6VVNTSpVl9fqLiBVQb-1MQ&s" alt="">
+                                    </div>
+                                    <div class="titleBox">Chè</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                
+                </div>
+            
+
+            <!-- phần hiển thị tất cả các món ăn -->
+            <!-- nhiệm vụ của phúc -->
+
+            <!-- container-menu start -->
+            
+                <!-- phẩn hiển thị cửa hàng -->
+            <div class="dishes-container">
+                <!-- các hàng cửa hàng hiển thị  -->
+                <div class="dishes" id="dishes">
+                    <h1 class="heading">Thử quán mới</h1>
+                    <div class="box-container">
+                        <a href="xoilaviet.html" class="box">
+                            <img src="images/xoilaviet.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>Xôi Lá Việt</h3>
+                            <div class="basic-infor">
+                                <div>Bánh Mì - Xôi</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#" class="box">
+                            <img src="images/img container-content/piza.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>Order Pizza 4P’s - Hoàng Văn Thụn dã</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>10 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ </span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#" class="box">
+                            <img src="images/img container-content/macdonal.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>McDonald's - Nguyễn Văn Linh</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#" class="box">
+                            <img src="images/img container-content/hambeger.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>KFC - Đường Lê Duẩn - Đà Nẵng</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                    </div>  
+                    
+                </div>  
+                <!-- hàng đang khuyến mãi -->
+                <div class="dishes" id="dishes">
+                    <h1 class="heading">Đang khuyến mãi</h1>
+                    <div class="box-container">
+                        <a href="#" class="box">
+                            <img src="images/img container-content/bún đậu.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>Quán đêm</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#"  class="box">
+                            <img src="images/img container-content/hamifood.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>Hami Food - French Tacos & Fries</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#"  class="box">
+                            <img src="images/img container-content/bánh xèo tôm nhyar.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>Bánh Xèo Tôm Nhảy Năm Hiền</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#"  class="box">
+                            <img src="images/img container-content/cơm chay đà nẵng .webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>Đà Nẵng Cơm Chay 3</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                    </div>  
+                    
+                </div> 
+                <!-- hàng thương hiệu quen thuốc -->
+                <div class="dishes" id="dishes">
+                    <h1 class="heading">thương hiệu quen thuộc</h1>
+                    <div class="box-container">
+                        <a href="" class="box">
+                            <img src="images/img container-content/mì cay sasim.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>Mì Cay SaSin - Nguyễn Văn Linh</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#" class="box">
+                            <img src="images/img container-content/piza.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>Order Pizza 4P’s - Hoàng Văn Thụn dã</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>10 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ </span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#" class="box">
+                            <img src="images/img container-content/macdonal.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>McDonald's - Nguyễn Văn Linh</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#" class="box">
+                            <img src="images/img container-content/hambeger.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>KFC - Đường Lê Duẩn - Đà Nẵng</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                    </div>  
+                    
+                </div>  
+                <!-- cửa hàng gần bạn -->
+                <div class="dishes" id="cuaHangGanBan">
+                    <h1 class="heading">Cửa hàng gần bạn</h1>
+                    <div class="box-container">
+                        <a href="" class="box">
+                            <img src="images/img container-content/mì cay sasim.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>Mì Cay SaSin - Nguyễn Văn Linh</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#" class="box">
+                            <img src="images/img container-content/piza.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>Order Pizza 4P’s - Hoàng Văn Thụn dã</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>10 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ </span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#" class="box">
+                            <img src="images/img container-content/macdonal.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>McDonald's - Nguyễn Văn Linh</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#" class="box">
+                            <img src="images/img container-content/hambeger.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>KFC - Đường Lê Duẩn - Đà Nẵng</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                    </div>  
+                    
+                </div>  
+                <!-- vừa đặt gần đây -->
+                <div class="dishes" id="dishes">
+                    <h1 class="heading">vừa đặt gần đây</h1>
+                    <div class="box-container">
+                        <a href="" class="box">
+                            <img src="images/img container-content/mì cay sasim.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>Mì Cay SaSin - Nguyễn Văn Linh</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#" class="box">
+                            <img src="images/img container-content/piza.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>Order Pizza 4P’s - Hoàng Văn Thụn dã</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>10 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ </span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#" class="box">
+                            <img src="images/img container-content/macdonal.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>McDonald's - Nguyễn Văn Linh</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                        <a href="#" class="box">
+                            <img src="images/img container-content/hambeger.webp" alt="">
+                            <div class="promotag">Promo</div>
+                            <h3>KFC - Đường Lê Duẩn - Đà Nẵng</h3>
+                            <div class="basic-infor">
+                                <div>lẩu & nướng - quay</div>
+                                <div class="infor-icon">
+                                    <div class="star-infor">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="time-infor">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <span>15 phút</span>
+                                    </div>
+                                    <div class="km-infor">
+                                        <i class="fa-solid fa-circle"></i>
+                                        <span>0,7 km</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="basic-infor-bottom">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Giảm 10.000₫ cho đơn trị giá tối thiếu 200.000₫</span>
+                            </div>
+                            
+                        </a>
+
+                    </div>  
+                    
+                </div>  
+         </div>  
+            
+            
+
+            <!-- phần tin tức -->
+            <!-- nhiệm vụ của quyết -->
+
+                <!-- thanh quảng cáo có lướt được, có thông tin các món ăn -->
+
+                <section class="review" id="review">
+                    <div class="swiper review-slider">
+                        <div class="header-review">
+                            <h3>Tin tức</h3>
+                        </div>
+                        <!-- Sửa class 'swiper-wrappe' thành 'swiper-wrapper' -->
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide slider-review">
+                                <div class="content">
+                                    <div id="image">
+                                        <img src="images/anh-review-index/vịt quay Bắc Kinh.jpg" alt="">
+                                    </div>
+                                    <p>Bí mật làm nên món vịt quay Bắc Kinh ngon nhất.</p>
+                                    <a href="#" class="btn-review">Xem thêm</a>
+                                </div>   
+                            </div>
+    
+                            <div class="swiper-slide slider-review">
+                                <div class="content">
+                                    <div id="image">
+                                        <img src="images/anh-review-index/cá mao ếch.jpg" alt="">
+                                    </div>
+                                    <p>Cá mao ếch-đặt sản nhiều người không dám thử ở Cần Thơ</p>
+                                    <a href="#" class="btn-review">Xem thêm</a>
+                                </div>   
+                            </div>
+    
+                            <div class="swiper-slide slider-review">
+                                <div class="content">
+                                    <div id="image">
+                                        <img src="images/anh-review-index/món cá muối.jpg" alt="">
+                                    </div>
+                                    <p>Món cá muối 3 năm mới được thưởng thức ở Nhật</p>
+                                    <a href="#" class="btn-review">Xem thêm</a>
+                                </div>   
+                            </div>
+    
+                            <div class="swiper-slide slider-review">
+                                <div class="content">
+                                    <div id="image">
+                                        <img src="images/anh-review-index/đặc sản 4000 euro 1 cân.jpg" alt="">
+                                    </div>
+                                    <p>Đặc sản 4.000 euro một cân của Tây Ban Nha</p>
+                                    <a href="#" class="btn-review">Xem thêm</a>
+                                </div>   
+                            </div>
+    
+                            <div class="swiper-slide slider-review">
+                                <div class="content">
+                                    <div id="image">
+                                        <img src="images/anh-review-index/8 món ngon nhất.jpg" alt="">
+                                    </div>
+                                    <p>8 món ăn đường phố ngon nhất ở Luang Prabang</p>
+                                    <a href="#" class="btn-review">Xem thêm</a>
+                                </div>   
+                            </div>
+    
+                            <div class="swiper-slide slider-review">
+                                <div class="content">
+                                    <div id="image">
+                                        <img src="images/anh-review-index/món ăn ít béo.jpg" alt="">
+                                    </div>
+                                    <p>Món ăn ít chất béo thích hợp cho người muốn giảm cân</p>
+                                    <a href="#" class="btn-review">Xem thêm</a>
+                                </div>   
+                            </div>
+    
+                            <div class="swiper-slide slider-review">
+                                <div class="content">
+                                    <div id="image">
+                                        <img src="images/anh-review-index/crystal jade.jpg" alt="">
+                                    </div>
+                                    <p>Bếp trưởng Crystal Jade Kitchen chia sẻ niềm đam mê với nghề</p>
+                                    <a href="#" class="btn-review">Xem thêm</a>
+                                </div>   
+                            </div>
+    
+                            <div class="swiper-slide slider-review">
+                                <div class="content">
+                                    <div id="image">
+                                        <img src="images/anh-review-index/các chiên hoa cúc.jpg" alt="">
+                                    </div>
+                                    <p>Cá chiên hoa cúc siêu ngon siêu đỉnh</p>
+                                    <a href="#" class="btn-review">Xem thêm</a>
+                                </div>   
+                            </div>
+    
+                            <div class="swiper-slide slider-review">
+                                <div class="content">
+                                    <div id="image">
+                                        <img src="images/anh-review-index/bạch tuộc.jpg" alt="">
+                                    </div>
+                                    <p>Cách làm bạch tuộc nướng muối ớt siêu ngon</p>
+                                    <a href="#" class="btn-review">Xem thêm</a>
+                                </div>   
+                            </div>
+    
+                            
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </section>
+
+
+        <!-- phần thông tin tổng thể, nhà tài trợ, thông tin công ty... -->
+        <!-- nhiệm vụ của Cao -->
+
+
+        
+        <div class="footer">
+            <div class="grid">
+                <div class="grid_row1">
+                    <div class="grid_column_2_4">
+                        <h3 class="footer_heading_Winship">Winship</h3>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link"> <i class="fa-solid fa-house"></i> Công ty TNHH nhiều thành viên Winship </a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link"> <i class="fa-solid fa-envelope"></i>Email:boy@winship.com</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link"><i class="fa-solid fa-location-dot"></i> Địa chỉ: 252 Nguyễn Văn Linh</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link"> <i class="fa-solid fa-clock"></i> Giờ làm việc:Từ 7h-21h với tất cả ngày trong tuần</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link_hooline"> Tổng đài hỗ trợ </a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link_number"> 1900 1001 </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column_2_4">
+                        <h3 class="footer_heading">GIỚI THIỆU</h3>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link">Về chúng tôi</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link">Liên hệ</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link">Phương thức thanh toán</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link">Tuyển dụng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column_2_4">
+                        <h3 class="footer_heading">DỊCH VỤ</h3>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link">Premium services</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link">Gói quà biếu tặng</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link">Tích điểm khách hàng</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link">Tích điểm khác</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column_2_4">
+                        <h3 class="footer_heading">THEO DÕI NGAY</h3>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link"><i class="fa-brands fa-tiktok"></i> Tiktok</a>
+                            </li>
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link"><i class="fa-brands fa-youtube"></i> Youtube</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid_column_2_4">
+                        <h3 class="footer_heading">Vào cửa hàng bằng ứng dụng khác</h3>
+                        <ul class="footer_list">
+                            <li class="footer_item">
+                                <a href="" class="footer_item_link">
+                                    <div class="footer_dowload">
+                                        <img src="https://khangnguyenco.vn/pub/media/magefan_blog/ma-qr-code.jpg" alt="" class="footer_dowload_qr">
+                                        <div class="footer_dowload_app">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Google_Play_Store_badge_FR.svg" alt="" class="dowload_app-img">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png" alt="" class="dowload_app-img">
+                                        </div>
+                                    </div>
+                                    <div class="footer_recognize">
+                                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7W0B12D6YhARZsKN8zHJASoNVjP53yi8ShA&s" alt="" class="footer_recognize-image">      
+                                    </div>
+                                    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+                <div class="footer_bottom">
+                    <div class="grid_row2">
+                        <p class="footer_text">Copyrights © 2016 - 2024 Winship. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
